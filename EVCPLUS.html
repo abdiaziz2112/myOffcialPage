@@ -1,0 +1,270 @@
+
+<html>
+<head>
+	
+	<style type="text/css" media="all">
+		.btn{
+		text-decoration: none;
+    display: inline-block;
+    background-color: rgb(255,138,32);
+    color: white;
+    padding: 1.3rem 5rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    border-radius: 5rem;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.3);
+
+}
+.btn:hover{
+    background-color: #fab6b6;
+    color: black;
+    transition: all 500ms ease-in-out;
+}
+
+	</style>
+	
+	
+	
+	
+	
+<title>EVCPLUS</title>
+</head>
+<body>
+
+<script>
+balance = 120
+password = 1212
+my_num=619792712
+ac = 30050005
+j = "JAMHURIYA UNIVERSITY (JUST) (30050005)? \n1. Haa \n2. Maya"
+
+var Number = prompt('  Evcplus\nGali PIN-Pinkaaga(Enter PIN).')
+if (Number == password){
+var list=prompt(" EVCPlus\n1. Itus haraaga \n2. Kaarka hadalka \n3. Bixi biil \n4. U wareeji EVCPlus \n5. Warbixin Kooban \n6. Salaam Bank \n7. Maaraynta \n8. Taaj")
+}
+
+else{
+alert("pinka ad galisay waa khalad")
+}
+
+if (list == 1 ){
+alert("[-EVCPlus-] Haraagagu waa $"+balance)
+}
+
+// Bixi Biil
+
+else if (list==3){
+var doro= prompt(" Bixi Biil \n1. Post Paid \n2. Ku Iibso")
+if (doro==1){
+
+var p = prompt("Post Paid \n1. Ogow Biilka. \n2. Bixi Biil. \n3. Ka Bixi Biil  ")
+if (p==1)
+alert("Si aad biil ubixiso Fadlan isticmaal adeega Caawiye *141#")
+else if(p==3){
+var m = prompt("Fadlan Gali Mobile-ka")
+var a = prompt("Fadlan Gali lacagta")
+var b = prompt("Ma Hubtaa inaad bixisid bill lacagtiisu tahay: $"+a+" oo laga rabo tel No " + m +"?"+"\n1. Haa \n2. Maya")
+
+
+if (b==1){
+g = balance-a
+if(balance > 0 && a <= balance)
+alert("Waxaad bixisay bill  lacagtiisu tahay $"+a+" Haraagaagu waa $"+g)
+else{
+alert("Haraaga xisaabtadu kuguma filna")}}
+}
+else if(p==2){
+var f = prompt("Fadlan Gali Lacagta")
+let y=prompt("Ma Hubtaa inaad bixisid bill lacagtiisu ay tahay: $" +f+ "?"+"\n1. Haa \n2. Maya")
+if (y==1){
+k = balance - f
+if (balance > 0 && f <= balance )
+alert("Waxaad bixisay bill lacagtiisu ay tahay $"+f+ " Haraagaagu waa $"+k)
+else{
+alert("Haraaga xisaabtada kuguma filna")
+
+}
+}
+}
+}
+
+else if(doro == 2){
+var n = prompt("Fadlan Gali aqoonsiga ganacsiga")
+alert("error occurred , please try again later. ")}
+}
+
+// way dhamaatay shaqada bixi biilka 
+
+
+
+// Kaarka hadalka 
+
+else if (list == 2){
+var kaar = prompt(" kaarka hadalka \n1. Ku shubo Airtime \n2. Ugu Shub Airtime \n3. MIFI Packages \n4. Ku shubo Internet \n5. Ugu Shub qof kale(MMT)")
+if(kaar == 1) 
+lcg = prompt("Fadlan Gali lacagta")
+choos = prompt("Mahubtaa inaad $"+lcg+" Ugu shubtid Undefined?\n1. Haa \n2. Maya")
+if (choos==1 )
+
+
+kajar = balance - lcg
+if (balance > 0 && lcg <= balance )
+alert("Waxaad $"+lcg +" Ugu shubtay 252" +my_num + " Haraagagu waa $" +kajar)
+
+
+else {
+alert("Haraaga xisaabtad kuguma filna.")
+}
+
+
+
+
+}
+
+// ma dhamaystirna kaarka hadalka 
+
+
+// Warbixin Kooban
+else if (list==5){
+var w = prompt(" Warbixin Kooban \n1. Last Action \n2. Wareejintii u dambaysay \n3. Iibsashadii u dambaysay \n4. Last 3 Actions \n5. Email Me Me Activity ")
+alert("Shantaan Shaqo wali lama Howl galinin walaal \n Fadlan soo laabo mar kale .")
+}
+
+
+
+// Salmaam Bank 
+else if (list == 6){
+var k_evc = prompt("Salaam Bank \n1. Ka Wareeji EVCPlus")
+if (k_evc==1)
+var d = prompt("Fadlan dooro xisaabta bangiga \n1. SALAAM SOMALI BANK \n2. Salaam Sch")
+if (d==1){
+var ac = prompt ("Fadlan Gali Account-ka")
+var mac = prompt("Fadlan Gali Faahfaahin (Enter description)")
+
+
+var mon = prompt("Fadlan Gali lacagta")
+if (ac==30050005)
+var mah= prompt("Ma hubtaa inaad $"+mon+" u wareejiso Bank Account "+j)
+if (mah==1){
+minus= balance-mon
+if (balance > 0 && mon <= balance ){
+alert("[-EVCPlus-] Waxaad $"+mon+ " Ku shubtay Bank account: / JUST Student ID:/" +mac +"(300XXX05) Haraagagu waa $"+minus)
+
+}
+else{
+alert("Haraaga xisaabtadu kuguma filna")
+}
+}
+else{
+alert("FADLAN GELI KOONTADA OO SAX AH")
+}
+}
+}
+
+
+
+// maarayta
+if (list==7){
+var sir=prompt("Maareynta \n1. Badal lambarka sirta ah \n2. Badal Luqadda \n3. Wargalin Mobile Lumay \n4. Lacag Xirasho \n5. U celi  lacag qaldantay \n6. EnablemobileBanking")
+alert("Wali lama dhamastirin shaqada maaraynta")
+}
+
+
+
+// TAAJ
+/*else if (list==8){
+
+var T= prompt("TAAJ \n1. Dibada \n2. Ogoow Khidmada \n3. Macluumadka xawaalada")
+if(T==1){
+var qtha= prompt("Fadlan Geli Taleefanka qaataha")
+
+var name=prompt("Fadlan Gali Magaca qaataha oo saddexan")
+var city=prompt("Fadlan Geli magaalada qaataha uu joogo")}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// U wareeji EVCPLUS.
+
+
+else if(list == 4){
+u = prompt("Fadlan Gali Mobile-ka")
+
+//if (u.length < 10 && u.length > 10)
+
+//if (u.length > 10 && u.length <10)
+//alert("error occurred please try again later")
+
+
+
+
+
+lacag = prompt("Fadlan Gali lacagta")
+
+if (lacag == 0)
+alert("Amount must be greater than Zero")
+if (lacag!=0)
+
+
+H =prompt("Mahubtaa inaad $"+lacag +" u wareejisid 252"+u+"\n1. Haa\n2. Maya")
+if (H == 1)
+
+kagoy = balance-lacag
+
+
+if (lacag >= 301)
+alert("Transaction amount must be less than 300")
+if (lacag<301)
+
+
+
+if (balance>0 && lacag <= balance)
+
+
+
+alert("[-EVCPlus-] waxaad $"+lacag+"  u wareejisay 0"+u+" Haraagaagu waa $"+kagoy)
+
+
+
+
+
+
+else{
+alert("Haraaga xisaabtada kuguma filna.")
+
+}
+
+}
+
+
+</script>
+
+<div>
+	<a href="index.html" class="btn">Go Back To Home Page</a>
+</div>
+
+
+
+</body>
+
+</html>
