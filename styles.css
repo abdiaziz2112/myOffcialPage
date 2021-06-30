@@ -71,7 +71,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
  
   display: block;
@@ -245,10 +245,10 @@ img{
 }
 .about__img{
   justify-self: center;
-  margin-left: 4rem;
+  margin-left: 6rem;
 }
 .about__img img{
-  width: 150px;
+  width: 200px;
   border-radius: .5rem;
 }
 
