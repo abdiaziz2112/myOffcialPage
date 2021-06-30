@@ -71,7 +71,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 55%;
+  max-width: 60%;
   height: auto;
  
   display: block;
@@ -219,7 +219,7 @@ img{
   position: absolute;
   right: 0;
   bottom:0;
-  width: 350px;
+  width: 200px;
 }
 
 /*BUTTONS*/
