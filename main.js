@@ -71,10 +71,10 @@ sr.reveal('.contact__input',{interval: 200});
 sr.reveal('.note',{});
 sr.reveal('.section-title',{});
 
-sr.reveal('.time' , {});
+
 
 sr.reveal('.time', { 
-  rotate: { x: 100, y: 100, z: 0 },
+  rotate: { x: 100, y: 200, z: 0 },
   duration: 1000
 });
 
