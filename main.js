@@ -70,4 +70,5 @@ sr.reveal('.contact__input',{interval: 200});
 /* books */
 sr.reveal('.note',{});
 sr.reveal('.section-title',{});
+Sr.reveal('.time{});
 
