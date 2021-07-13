@@ -73,3 +73,8 @@ sr.reveal('.section-title',{});
 
 sr.reveal('.time' , {});
 
+sr.reveal('.time', { 
+  rotate: { x: 100, y: 100, z: 0 },
+  duration: 1000
+});
+
