@@ -88,22 +88,22 @@ let timeNow = today.getHours();
 let display;
 
 
-if (timeNow >= 18){
+if (timeNow >= 18 && timeNow <= 21){
   display = "Fiidnimo Wanaagsan !";
 }
 else if (timeNow >= 22){
    display = "Habeen wanaagsan !";
 }
-else if (timeNow > 12 ){
-  display = "Galab wanaagsan !";
+else if (timeNow == 12 ){
+  display = "Duhur wanaagsan !";
 }
-else if (timeNow >= 0 || timeNow <= 3){
+else if (timeNow >= 0 && timeNow <= 3){
   display = "Saqa dhaxe wanaagsan !";
 }
-else if( timeNow >= 4 || timeNow >= 6){
-     display = "Fajir wanaagsan wll !";
+else if( timeNow >= 4 && timeNow <= 6){
+     display = "Fajar wanaagsan wll !";
 }
-else if (timeNow >= 11 ){
+else if (timeNow <= 11 ){
     display = "Subax wanaagsan !";
 }
 
