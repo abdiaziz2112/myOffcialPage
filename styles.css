@@ -1,4 +1,7 @@
 /*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root{
@@ -538,7 +541,6 @@ transform: scale(1.2);
 	
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
 
 
