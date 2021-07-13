@@ -74,7 +74,7 @@ sr.reveal('.section-title',{});
 
 
 sr.reveal('.time', { 
-  rotate: { x: 100, y: 200, z: 0 },
-  duration: 1000
+  rotate: { x: 100, y: 200, z: 5 },
+  duration: 2000
 });
 
