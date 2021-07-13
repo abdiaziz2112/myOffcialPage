@@ -538,4 +538,22 @@ transform: scale(1.2);
 	
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+
+.Hour{
+  text-align:center;
+}
+
+.time{
+  text-align:center;
+  color:green;
+ 
+}
+.time{
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+}
+
 
