@@ -71,5 +71,5 @@ sr.reveal('.contact__input',{interval: 200});
 sr.reveal('.note',{});
 sr.reveal('.section-title',{});
 
-Sr.reveal('.time , {});
+//Sr.reveal('.time , {});
 
