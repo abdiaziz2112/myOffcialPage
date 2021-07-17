@@ -79,6 +79,18 @@ img{
  
   display: block;
 }
+.nav__logo{
+    
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+
+
+
+}
 
 /*===== CLASS CSS ===== */
 .section-title{
