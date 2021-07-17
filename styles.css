@@ -82,7 +82,8 @@ img{
 .nav__logo{
     
 
-  position: fixed;
+  position: absolute;
+  Width:50px;
   left: 0;
   top: 0;
   margin: 0;
