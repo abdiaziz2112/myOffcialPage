@@ -79,19 +79,6 @@ img{
  
   display: block;
 }
-.nav__logo{
-    
-
-  position: absolute;
-  Width:60px;
-  left: 1;
-  top: 0;
-  margin: 0;
-  padding: 0;
-
-
-
-}
 
 /*===== CLASS CSS ===== */
 .section-title{
@@ -137,11 +124,7 @@ img{
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
-.nme{
-    left: 7rem;
-    top: 6rem;
-    text-align:center;
-}
+
 
 /*===== NAV =====*/
 .nav{
