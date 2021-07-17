@@ -124,6 +124,9 @@ img{
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
+.nme{
+    text-align:center;
+}
 
 /*===== NAV =====*/
 .nav{
