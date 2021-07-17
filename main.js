@@ -71,7 +71,10 @@ sr.reveal('.contact__input',{interval: 200});
 sr.reveal('.note',{});
 sr.reveal('.section-title',{});
 
-sr.reveal('.nme',{})
+sr.reveal('.nme', { 
+  rotate: { x: 50, y: 100, z: 4 },
+  duration: 1000
+});
 
 sr.reveal('.time', { 
   rotate: { x: 100, y: 200, z: 5 },
