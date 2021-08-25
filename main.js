@@ -63,7 +63,7 @@ sr.reveal('.Top',{});
 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('#contact',{interval: 200}); 
 
 
 
