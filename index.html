@@ -455,23 +455,32 @@ Some of the skills I am most familiar with are the following.⤵️</p>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact 🌐</h2>
-
-                <div class="contact__container bd-grid">
-                    <form name="google-sheet" class="contact__form">
-                        <input type="text" id="name" name="name" placeholder="Name" class="contact__input">
-                        <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
-                        <textarea id="message" name="message" placeholder="Comment" cols="0" rows="10" class="contact__input"></textarea>
-                          
-                       <div>
+                <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
+                <h2 class="text-center fw-bold mb-3">Contact Us</h2>
+                <form name="google-sheet">
+                    <div id="form_alerts"></div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Enter your message" rows="5" required></textarea>
+                    </div>
+                    <div>
                         <button class="btn btn-primary me-2" type="submit">Send message!</button>
                         <button class="btn btn-danger" type="reset">Reset the form!</button>
                     </div>
-
-
-                      <!--  <input type="submit" value="Submit" class="contact__button button" -->
-                    </form>
-                </div>
+                </form>
+            </div>
+        </div>
+    </div>
             </section>
         </main>
 
